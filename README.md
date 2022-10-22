@@ -14,7 +14,7 @@ change to folder mysql:
 ```cd mysql```  
 
 Build image:  
-```docker build -t database```  
+```docker build -t database .```  
 
 Run container:  
 
@@ -35,7 +35,7 @@ source schemas/rebuild.sql
 ## Webserver Container  
 
 ```
-docker build -t webserver 
+docker build -t webserver . 
 docker run --name webserver1 --network=lampnw -d -p 80:80 webserver
 ```  
 
