@@ -27,7 +27,7 @@ Monitor container logs until MySQL is up and ready to accept connections (Messag
 
 ```docker logs -f db1```  
 
-Create Demo Database and Add test data:  
+Create Demo Database and Add test data (password: iest):  
 
 ```
 docker exec -it db1 bash
