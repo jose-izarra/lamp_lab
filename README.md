@@ -57,7 +57,7 @@ On a web browser, type the IP address / domain name of the server hosting your d
 http://myvm.com:8099  
 ```  
 
-If you are using Play With Docker (which I recommend), then click the "Open Port" button and type 80.
+If you are using Play With Docker (which I recommend), then click the "OPEN PORT" button and type 80.
 
 NOTE: If you are working on a shared VM, you may need to change the port used by the host machine, e.g., -p ANOTHER_PORT:80
 Also, in Cloud environments, a Network rule may be required to reach the exposed port over the internet.  
