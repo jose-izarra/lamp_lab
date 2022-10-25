@@ -11,7 +11,9 @@ docker network create -d bridge lampnw
 
 change to folder mysql:  
 
-```cd mysql```  
+```
+cd code
+cd mysql```  
 
 Build image:  
 ```docker build -t database .```  
